@@ -3,10 +3,6 @@ library(rvest)
 library(furrr)
 library(tictoc)
 library(lubridate)
-library(plotly)
-library(shinydashboard)
-library(shiny)
-library(gghighlight)
 
 
 marathon_data = read_csv("Downloads/marathon_data.csv") %>% filter(!is.na(`Want to read more?`))
